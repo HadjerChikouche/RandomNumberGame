@@ -13,7 +13,6 @@ int main() {
 
     srand((unsigned int) time(0));
     nombreMystere = (rand() % (max - min + 1)) + min;
-    nombreMystere = 5;
     numberChosen = 0;
 
     char i;
