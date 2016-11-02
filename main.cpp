@@ -15,6 +15,7 @@ int main() {
     nombreMystere = (rand() % (max - min + 1)) + min;
     numberChosen = 0;
 
+
     char i;
     do {
         while (numberChosen != nombreMystere) {
